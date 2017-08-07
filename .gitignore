@@ -98,6 +98,6 @@ ENV/
 # mypy
 .mypy_cache/
 
-
-# bin/tensorflow
+# for this repo
 tensorflow/
+fixture/
