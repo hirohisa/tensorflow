@@ -25,3 +25,19 @@ https://www.tensorflow.org/tutorials/image_retraining
 python tensorflow/examples/image_retraining/retrain.py \
     --image_dir ~/flower_photos --architecture mobilenet_0.25_128_quantize
 ```
+
+### docker
+
+```
+brew cask install docker
+open /Applications/Docker.app
+```
+
+https://hub.docker.com/r/tensorflow/tensorflow/
+```
+docker run -it -p 8888:8888 tensorflow/tensorflow
+
+docker run -v ~/Products/github/tensorflow:/tensorflow_dev -it tensorflow/tensorflow
+docker ps
+docker exec -it [container id] python /tensorflow_dev/script/helloworld.py
+```
