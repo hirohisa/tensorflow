@@ -104,4 +104,5 @@ tensorflow/
 
 # images and tfrecords
 images/
+data/
 *.tfrecords
