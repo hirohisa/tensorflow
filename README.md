@@ -9,7 +9,7 @@ e.g.
 
 install directory -> tensorflow:
 ```
-sudo easy_install pip3
+brew install python3
 sudo pip3 install --upgrade virtualenv
 virtualenv --system-site-packages tensorflow
 source tensorflow/bin/activate
